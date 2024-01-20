@@ -140,17 +140,17 @@ Program.cs file:
 
 ``` cs
 //create a medal object
- Medal m1 = new Medal("Horace Gwynne", "Boxing", MedalColor.Gold, 2012, true);
- //print the object
- Console.WriteLine(m1);
- //print only the name of the medal holder
- Console.WriteLine(m1.Name);
+Medal m1 = new Medal("Horace Gwynne", "Boxing", MedalColor.Gold, 2012, true);
+//print the object
+Console.WriteLine(m1);
+//print only the name of the medal holder
+Console.WriteLine(m1.Name);
 
 
- //create another object
- Medal m2 = new Medal("Michael Phelps", "Swimming", MedalColor.Gold, 2012, false);
- //print the updated m2
- Console.WriteLine(m2); 
+//create another object
+Medal m2 = new Medal("Michael Phelps", "Swimming", MedalColor.Gold, 2012, false);
+//print the updated m2
+Console.WriteLine(m2); 
 
 ```
 

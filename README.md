@@ -1,10 +1,8 @@
-### Submission: See course shell for how and when to submit
+# The Medal Class
 
-You will practice using Properties and iterating a list.
+## The MedalColor Enum
 
-# The MedalColor Enum
-
-### Code the MedalColor enum below:
+### Code the MedalColor enum below
 
 This enum consist of 3 constants which does not require any special
 treatment (such as setting any Flags attribute).
@@ -33,9 +31,7 @@ treatment (such as setting any Flags attribute).
 </tbody>
 </table>
 
-# The Medal Class
-
-### Code the Medal class below:
+### Code the Medal class below
 
 This class comprise of five properties, a constructor and a ToString()
 method. All the properties are public readonly.
@@ -87,7 +83,7 @@ method. All the properties are public readonly.
 
 ## Description of class members
 
-##### Properties:
+### Properties
 
 All the properties have public getter and the setter is absent making
 them all readonly properties
@@ -108,11 +104,11 @@ getter is public and the setter is absent.
 **IsRecord** – this is a bool indicating if this was a record setting
 event. The getter is public and the setter is absent.
 
-##### Fields:
+### Fields
 
 No fields are defined in this class
 
-##### Constructor:
+### Constructor
 
 **<span class="mark">public</span> Medal(string name, string theEvent,
 <span class="mark">MedalColor</span> color, int year, bool isRecord)** –
@@ -122,7 +118,7 @@ medal, an integer representing the year and a bool indicating if a World
 Record or Olympic Record was set in this event. It assigns the arguments
 to the appropriate fields.
 
-##### Methods:
+### Methods
 
 **<span class="mark">public override string</span> ToString()** – This
 public method overrides the ToString of the object class. It does not
@@ -133,7 +129,7 @@ If the event is not a record event then the “(R)” should not be present
 in the output. The ToString() method is the best place to implement this
 feature.
 
-### Test Harness
+## Test Harness
 
 Insert the following code statements in the **Main()** method of your
 Program.cs file:

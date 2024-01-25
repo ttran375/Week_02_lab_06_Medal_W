@@ -72,7 +72,7 @@ method. All the properties are public readonly.
 <p>+ «constructor» Medal(</p>
 <p>name : <strong><mark>string</mark></strong>,</p>
 <p>theEvent : <strong><mark>string</mark></strong>,</p>
-<p>color : <strong><mark>string</mark></strong>,</p>
+<p>color : <strong><mark>MedalColor</mark></strong>,</p>
 <p>year : <strong><mark>int</mark></strong>,</p>
 <p>isRecord : <strong><mark>bool</mark></strong>)</p>
 <p>+ ToString() : <strong><mark>string</mark></strong></p>

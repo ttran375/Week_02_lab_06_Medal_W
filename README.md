@@ -1,5 +1,9 @@
 # The Medal Class
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ttran375/comp123-lab6)
+
+[![Lint](https://github.com/ttran375/comp123-lab6/actions/workflows/main.yml/badge.svg)](https://github.com/ttran375/comp123-lab6/actions/workflows/main.yml)
+
 ## The MedalColor Enum
 
 ### Code the MedalColor enum below
